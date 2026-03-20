@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #ffffff;
+  color: #111;
+  font-family: "Times New Roman", Georgia, sans-serif;
+}
+
+.home-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: fixed;
+  width: 66px;
+  height: auto;
+  z-index: 20;
+}
+
+.logo-left {
+  left: 40px;
+  top: 405px;
+}
+
+.logo-right {
+  right: 40px;
+  top: 405px;
+}
+
+.manifesto-page {
+  min-height: 100vh;
+}
+
+.hero {
+  width: calc(100% - 320px); /* 좌우 마진 160px씩 */
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 0 60px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 5.0rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.subtitle {
+  margin: 22px 0 0;
+  font-size: 1.0rem;
+  font-style: sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.inline-logo {
+  width: 86px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+guide-single p {
+  margin: 0 0 26px;
+}
+
+.guide-single p:last-child {
+  margin-bottom: 0;
+}
+
+.top-ornament {
+  margin-top: 106px;
+  margin-bottom: 16px;
+}
+
+.bottom-ornament {
+  margin-top: 45px;
+  margin-bottom: 106px;
+}
+
+.guide-single p:last-of-type,
+.text-column p:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+.guide-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.text-column {
+  width: 800px;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.text-column p {
+  margin: 0 0 60px;
+  word-break: keep-all;
+}
+
+.product-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto 0;
+}
+
+.product-image {
+  width: 360px;
+  height: auto;
+  display: block;
+}
