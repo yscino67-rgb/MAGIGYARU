@@ -58,8 +58,8 @@ body {
 }
 
 .subtitle {
-  margin: 22px 0 0;
-  font-size: 1.0rem;
+  margin: 24px 0 0;
+  font-size: 1.02rem;
   font-style: sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -84,12 +84,12 @@ guide-single p {
 }
 
 .top-ornament {
-  margin-top: 106px;
+  margin-top: 86px;
   margin-bottom: 16px;
 }
 
 .bottom-ornament {
-  margin-top: 45px;
+  margin-top: 23px;
   margin-bottom: 106px;
 }
 
@@ -101,7 +101,7 @@ guide-single p {
 .guide-content {
   width: 100%;
   max-width: 1280px;
-  margin: 40px auto 0;
+  margin: 22px auto 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -111,12 +111,12 @@ guide-single p {
 .text-column {
   width: 800px;
   font-size: 20px;
-  line-height: 1.55;
+  line-height: 1.5;
   text-align: center;
 }
 
 .text-column p {
-  margin: 0 0 60px;
+  margin: 0 0 40px;
   word-break: keep-all;
 }
 
