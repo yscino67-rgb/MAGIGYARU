@@ -9,7 +9,7 @@ body {
   min-height: 100%;
   background: #ffffff;
   color: #111;
-  font-family: "Times New Roman", Georgia, sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .home-wrap {
@@ -141,7 +141,7 @@ body {
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .random-style {
@@ -169,4 +169,148 @@ body {
   color: #111;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  .hero {
+    width: calc(100% - 120px);
+    padding: 32px 0 50px;
+  }
+
+  .title {
+    font-size: 3.8rem;
+  }
+
+  .text-column {
+    width: 100%;
+    max-width: 680px;
+    font-size: 18px;
+  }
+
+  .product-image {
+    width: 300px;
+  }
+
+  .logo {
+    width: 52px;
+  }
+
+  .logo-left {
+    left: 20px;
+    top: 300px;
+  }
+
+  .logo-right {
+    right: 20px;
+    top: 300px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .hero {
+    width: calc(100% - 40px);
+    padding: 24px 0 40px;
+  }
+
+  .title {
+    font-size: 2.4rem;
+    line-height: 1.1;
+  }
+
+  .subtitle {
+    margin: 16px 0 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .top-ornament {
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .bottom-ornament {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .inline-logo {
+    width: 64px;
+  }
+
+  .guide-content {
+    gap: 32px;
+    margin: 18px auto 0;
+  }
+
+  .text-column {
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .text-column p {
+    margin: 0 0 28px;
+  }
+
+  .product-wrap {
+    margin: 44px auto 0;
+  }
+
+  .product-image {
+    width: 220px;
+    max-width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    width: 38px;
+    z-index: 10;
+  }
+
+  .logo-left {
+    left: 12px;
+    top: 16px;
+  }
+
+  .logo-right {
+    right: 12px;
+    top: 16px;
+  }
+}
+
+/* small mobile */
+@media (max-width: 480px) {
+  .hero {
+    width: calc(100% - 24px);
+    padding: 20px 0 32px;
+  }
+
+  .title {
+    font-size: 1.95rem;
+  }
+
+  .subtitle {
+    font-size: 0.72rem;
+  }
+
+  .text-column {
+    font-size: 15px;
+  }
+
+  .product-image {
+    width: 180px;
+  }
+
+  .inline-logo {
+    width: 54px;
+  }
+
+  .logo {
+    width: 30px;
+  }
 }
