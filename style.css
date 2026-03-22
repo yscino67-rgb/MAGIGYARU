@@ -1,4 +1,4 @@
-* {
+* * {
   box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .hero {
-  width: calc(100% - 320px); /* 좌우 마진 160px씩 */
+  width: calc(100% - 320px);
   max-width: 1440px;
   margin: 0 auto;
   padding: 40px 0 60px;
@@ -51,7 +51,7 @@ body {
 
 .title {
   margin: 0;
-  font-size: 5.0rem;
+  font-size: 5rem;
   font-style: italic;
   font-weight: 500;
   line-height: 1.05;
@@ -60,11 +60,18 @@ body {
 .subtitle {
   margin: 24px 0 0;
   font-size: 1.02rem;
-  font-style: sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.subtitle:hover {
+  opacity: 0.75;
 }
 
 .inline-logo {
@@ -75,7 +82,7 @@ body {
   margin-right: auto;
 }
 
-guide-single p {
+.guide-single p {
   margin: 0 0 26px;
 }
 
@@ -131,4 +138,35 @@ guide-single p {
   width: 360px;
   height: auto;
   display: block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.random-style {
+  display: inline;
+}
+
+/* 랜덤 스타일 */
+.style-plain {
+  color: #111;
+  text-decoration: none;
+}
+
+.style-red {
+  color: #c40000;
+  text-decoration: none;
+}
+
+.style-link {
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.style-black-link {
+  color: #111;
+  text-decoration: underline;
+  cursor: pointer;
 }
